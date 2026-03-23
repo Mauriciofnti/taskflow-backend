@@ -41,5 +41,5 @@ jobs:
         with:
           push: true
           tags: | # (2)
-            ${{ secrets.DOCKERHUB_USERNAME }}/ci-sum-python:${{ github.sha }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/ci-sum-python:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/taskflow-backend:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/taskflow-backend:latest
