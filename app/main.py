@@ -33,7 +33,7 @@ class Tarefa(BaseModel):
 
 @app.get("/")
 def home():
-    return {"mensagem": "API de Tarefas Ativa!"}
+    return {"mensagem": "API de Tarefas Ativa!!"}
 
 @app.post("/tarefas/")
 def criar_tarefa(tarefa: Tarefa):
