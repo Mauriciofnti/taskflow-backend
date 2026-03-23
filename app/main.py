@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 import sqlite3
 
-app = FastAPI(title="Gerenciador de Tarefas")
+app = FastAPI(title="Gerenciador de Tarefas!")
 
 app.add_middleware(
     CORSMiddleware,
